@@ -1,0 +1,16 @@
+table{
+    background-color: rgb(130, 34, 66);
+    padding: 30px;
+}
+body{
+    background-color: rgb(168, 37, 91);
+}
+tr,td{
+    color: white;
+}
+.bt{
+    width: 300%;
+    border-radius:5px ;
+    border-color: rgb(130, 34, 66);
+
+}

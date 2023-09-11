@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        border: solid black 2px;
+        width: 600px;
+        height: 350px;
+        margin-left: 0ch;
+        padding: 1%;
+      }
+      a {
+        position: absolute;
+        left: -80px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+      }
+
+      a:hover {
+        left: 0;
+      }
+
+      #about {
+        top: 20px;
+        background-color: green;
+      }
+
+      #blog {
+        top: 80px;
+        background-color: blue;
+      }
+
+      #projects {
+        top: 140px;
+        background-color: red;
+      }
+
+      #contact {
+        top: 200px;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="#" id="about">About</a>
+      <a href="#" id="blog">Source</a>
+      <a href="#" id="projects">Projects</a>
+      <a href="#" id="contact">Contact</a>
+    </div>
+
+    <div style="margin-left: 80px">
+      <h2>Hoverable Sidenav Buttons</h2>
+      <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+  </body>
+</html>

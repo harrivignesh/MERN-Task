@@ -1,0 +1,14 @@
+.bt{
+    background-color: red;
+    color: white;
+    border: red 1px;
+    border-radius: 10%;
+    
+}
+.log{
+    background-color: rgb(25, 170, 25);
+    width: 100%;
+    color: white;
+    border: rgb(25, 173, 25) 1px;
+
+}
